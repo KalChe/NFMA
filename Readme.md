@@ -38,9 +38,10 @@ Run the following commands in a terminal:
 ## License and Citation
 
 This code is part of the Neural Fields Meet Attention research project. If you use this code or the generated figures, please cite the original paper.
-
+    ```bash
 @inproceedings{cherukuri2025neural,
   title={Neural Fields Meet Attention},
   author={Cherukuri, Kalyan and Lala, Aarav},
   booktitle={NeurIPS 2025 Workshop on Symmetry and Geometry in Neural Representations}
 }
+        ```
