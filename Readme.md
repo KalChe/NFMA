@@ -24,16 +24,15 @@ Run the following commands in a terminal:
 ## File structure
 
 ## Appendix F. Extended Validation on a Computer Vision Task  
-  
-    ```bash
+
     Extended_Validation\MNIST_as_field.py
-    ```
+
 
 ##Appendix G. Extended Validation on a Physics Task  
 
-    ```bash
+
     Extended_Validation\PDEGrid.py
-        ```
+
 
 ## License and Citation
 
