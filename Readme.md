@@ -5,16 +5,42 @@ This project examines how attention mechanisms relate to neural field optimizati
 ## Setup
 
 Run the following commands in a terminal:
+1. **Create a virtual environment**:
 
-python -m venv venv  
-venv\Scripts\activate  
-pip install -r requirements.txt
+    ```bash
+    python -m venv venv
+    ```
 
+2. **Activate the virtual environment**:
+
+    ```bash
+    venv\Scripts\activate
+    ```
+3. **Install dependencies**:
+    
+    ```bash
+    pip install numpy
+    ```
 ## File structure
 
-Appendix F  
-Extended_Validation\MNIST_as_field.py
+## Appendix F. Extended Validation on a Computer Vision Task  
+  
+    ```bash
+    Extended_Validation\MNIST_as_field.py
+    ```
 
-Appendix G  
-Extended_Validation\PDEGrid.py
+##Appendix G. Extended Validation on a Physics Task  
 
+    ```bash
+    Extended_Validation\PDEGrid.py
+        ```
+
+## License and Citation
+
+This code is part of the Neural Fields Meet Attention research project. If you use this code or the generated figures, please cite the original paper.
+
+@inproceedings{cherukuri2025neural,
+  title={Neural Fields Meet Attention},
+  author={Cherukuri, Kalyan and Lala, Aarav},
+  booktitle={NeurIPS 2025 Workshop on Symmetry and Geometry in Neural Representations}
+}
