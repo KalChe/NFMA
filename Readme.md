@@ -19,7 +19,7 @@ Run the following commands in a terminal:
 3. **Install dependencies**:
     
     ```bash
-    pip install numpy
+    pip install -r requirements.txt
     ```
 ## File structure
 
@@ -37,8 +37,6 @@ Run the following commands in a terminal:
 ## License and Citation
 
 This code is part of the Neural Fields Meet Attention research project. If you use this code or the generated figures, please cite the original paper.
-
-
 ```bibtex
 @inproceedings{cherukuri2025neural,
   title     = {Neural Fields Meet Attention},
