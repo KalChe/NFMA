@@ -28,7 +28,7 @@ Run the following commands in a terminal:
     Extended_Validation\MNIST_as_field.py
 
 
-##Appendix G. Extended Validation on a Physics Task  
+## Appendix G. Extended Validation on a Physics Task  
 
 
     Extended_Validation\PDEGrid.py
