@@ -13,6 +13,11 @@ from .rotation_equivariance import (
     create_so2_figure,
     create_so3_figure
 )
+from .ablation import (
+    run_ablation_experiments,
+    run_ablation_study,
+    create_ablation_figure
+)
 
 __all__ = [
     'run_mnist_experiment',
@@ -27,4 +32,7 @@ __all__ = [
     'run_so3_equivariance',
     'create_so2_figure',
     'create_so3_figure',
+    'run_ablation_experiments',
+    'run_ablation_study',
+    'create_ablation_figure',
 ]
