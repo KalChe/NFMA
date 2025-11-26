@@ -139,5 +139,3 @@ Contributions and issue reports are welcome. When proposing a change, please inc
 ## License
 
 This repository does not include a license file by default. Add a `LICENSE` file to clarify usage (MIT/BSD recommended for academic code).
-
--- End of README
