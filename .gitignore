@@ -1,5 +1,32 @@
+# Virtual environment
 venv/
 .env/
+env/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+
+# Data (downloaded at runtime)
 data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build
+*.egg-info/
+dist/
+build/
