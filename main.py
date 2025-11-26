@@ -89,7 +89,7 @@ def run_attention(verbose: bool = True):
 def run_rotation(verbose: bool = True):
     # run rotation equivariance experiments
     if verbose:
-        print("\n[4/4] Rotation Equivariance")
+        print("\n[4/5] Rotation Equivariance")
         print("-" * 40)
     
     from src.experiments import run_rotation_equivariance_experiments
@@ -102,6 +102,24 @@ def run_rotation(verbose: bool = True):
         print(f"  Completed in {elapsed:.1f}s")
     
     return so2_results, so3_results
+
+
+def run_ablation(verbose: bool = True):
+    # run ablation study experiments
+    if verbose:
+        print("\n[5/5] Ablation Study")
+        print("-" * 40)
+    
+    from src.experiments import run_ablation_experiments
+    
+    start = time.time()
+    results = run_ablation_experiments(verbose=verbose)
+    elapsed = time.time() - start
+    
+    if verbose:
+        print(f"  Completed in {elapsed:.1f}s")
+    
+    return results
 
 
 def run_all(verbose: bool = True):
@@ -118,6 +136,7 @@ def run_all(verbose: bool = True):
     run_pde(verbose)
     run_attention(verbose)
     run_rotation(verbose)
+    run_ablation(verbose)
     
     total_elapsed = time.time() - total_start
     
@@ -143,6 +162,8 @@ def parse_args():
                        help='Run attention convergence experiments')
     parser.add_argument('--rotation', action='store_true',
                        help='Run rotation equivariance experiments')
+    parser.add_argument('--ablation', action='store_true',
+                       help='Run ablation study experiments')
     parser.add_argument('--seed', type=int, default=None,
                        help=f'Random seed (default: {SEED})')
     parser.add_argument('--quiet', '-q', action='store_true',
@@ -166,7 +187,7 @@ def main():
     verbose = not args.quiet
     
     # Run specific experiments or all
-    specific = args.mnist or args.pde or args.attention or args.rotation
+    specific = args.mnist or args.pde or args.attention or args.rotation or args.ablation
     
     if not specific:
         run_all(verbose)
@@ -182,6 +203,8 @@ def main():
             run_attention(verbose)
         if args.rotation:
             run_rotation(verbose)
+        if args.ablation:
+            run_ablation(verbose)
         
         print("\n" + "=" * 70)
         print(f"Results saved to: {RESULTS_DIR}")
