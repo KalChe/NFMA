@@ -135,7 +135,3 @@ If you use this code or figures in your work, please cite the corresponding pape
 ## Contributing
 
 Contributions and issue reports are welcome. When proposing a change, please include a short description of the intent, the plot or figure it affects, and a screenshot of the current/desired output if relevant.
-
-## License
-
-This repository does not include a license file by default. Add a `LICENSE` file to clarify usage (MIT/BSD recommended for academic code).
