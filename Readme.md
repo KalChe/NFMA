@@ -1,4 +1,4 @@
-# Neural Fields Meet Attention (nfma)
+# Neural Fields Meet Attention
 
 This project examines how attention mechanisms relate to neural field optimization. The paper shows that a transformer with relative positional information and coordinate normalization preserves affine structure when it is used as a set to function operator. It also shows that linear attention produces exact negative gradients for sinusoidal fields and that softmax attention converges to the same result at high temperature.
 
@@ -115,9 +115,13 @@ python main.py --rotation
 - For GPU acceleration with PyTorch: install the CUDA-matched PyTorch wheel from pytorch.org. Using an incompatible wheel may cause import errors.
 - If figures are clipped when saving, try increasing `pad_inches` or using `bbox_inches='tight'` in `src/utils/visualization.py::save_figure`.
 
-## Tests and Linting
+## Poster Link
 
-- There are no formal unit tests included in this repository. The primary validation step is to run the experiments and visually inspect the generated figures.
+If you would like to see the poster accompanying this paper at NeurIPS 2025, please see it [here]([url](https://docs.google.com/presentation/d/1ggmoxG2ShRdEyLaTONrtkOY8swQjNQbi/edit?slide=id.p1#slide=id.p1))!
+
+## Demo Video
+
+As a part of the Symmetry and Geometry in Neural Representations workshop, we have also contributed a video demo of this research to be featured publicly on their platform. That video can also be accessed [here](url).
 
 ## Citation
 
