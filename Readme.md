@@ -1,6 +1,6 @@
 # Neural Fields Meet Attention
 
-This project examines how attention mechanisms relate to neural field optimization. The paper shows that a transformer with relative positional information and coordinate normalization preserves affine structure when it is used as a set to function operator. It also shows that linear attention produces exact negative gradients for sinusoidal fields and that softmax attention converges to the same result at high temperature.
+This project examines how attention mechanisms relate to neural field optimization. The paper shows that a transformer with relative positional information and coordinate normalization preserves affine structure when used as a set-to-function operator. It also indicates that linear attention produces exact negative gradient descent steps for sinusoidal neural fields and that softmax attention converges to the same result as the temperature $\tau$ approaches infinity.
 
 ## Setup
 
@@ -18,8 +18,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 # Neural Fields Meet Attention
-
-This repository contains code and figure generation scripts supporting the paper "Neural Fields Meet Attention" (NeurIPS 2025 workshop submission). The code reproduces experiments demonstrating affine equivariance properties of attention-based operators and visualizes rotation equivariance on SO(2) (2D) and SO(3) (sphere) fields.
 
 This README documents how to set up, run, and reproduce figures and experiments in this repository.
 
