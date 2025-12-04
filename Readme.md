@@ -128,11 +128,13 @@ As a part of the Symmetry and Geometry in Neural Representations workshop, we ha
 If you use this code or figures in your work, please cite the corresponding paper:
 
 ```bibtex
-@inproceedings{cherukuri2025neural,
-  title     = {Neural Fields Meet Attention},
-  author    = {Cherukuri, Kalyan and Lala, Aarav},
-  booktitle = {NeurIPS 2025 Workshop on Symmetry and Geometry in Neural Representations},
-  year      = {2025}
+@inproceedings{
+cherukuri2025neural,
+title={Neural Fields Meet Attention},
+author={Kalyan Cherukuri and Aarav Lala},
+booktitle={NeurIPS 2025 Workshop on Symmetry and Geometry in Neural Representations},
+year={2025},
+url={https://openreview.net/forum?id=Ek7Y2Uoffl}
 }
 ```
 
