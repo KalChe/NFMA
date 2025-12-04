@@ -117,11 +117,11 @@ python main.py --rotation
 
 ## Poster Link
 
-If you would like to see the poster accompanying this paper at NeurIPS 2025, please see it [here]([url](https://docs.google.com/presentation/d/1ggmoxG2ShRdEyLaTONrtkOY8swQjNQbi/edit?slide=id.p1#slide=id.p1))!
+If you would like to see the poster accompanying this paper at NeurIPS 2025, please see it [here](https://docs.google.com/presentation/d/1ggmoxG2ShRdEyLaTONrtkOY8swQjNQbi/edit?slide=id.p1#slide=id.p1)!
 
 ## Demo Video
 
-As a part of the Symmetry and Geometry in Neural Representations workshop, we have also contributed a video demo of this research to be featured publicly on their platform. That video can also be accessed [here](url).
+As a part of the Symmetry and Geometry in Neural Representations workshop, we have also contributed a video demo of this research to be featured publicly on their platform. That video can also be accessed [here](https://youtu.be/RkK2jd1pY94).
 
 ## Citation
 
